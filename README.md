@@ -4,6 +4,8 @@ Projeto de estudos em **Firmware** e **Sistemas Embarcados** utilizando Arduino 
 
 O objetivo é desenvolver um firmware capaz de receber comandos pela comunicação serial, interpretar esses comandos e controlar o estado interno de um sistema simulado, aplicando conceitos de arquitetura de firmware, máquina de estados e organização modular.
 
+Os estudos estão sendo feitos de forma independente e autodidata visando a profissionalização e especialização no desenvolvimento de sistemas embarcados. Sinta-se livre para adotar a mesma abordagem ou contribuir com algo no projeto.
+
 ---
 
 ## Objetivos
@@ -74,31 +76,29 @@ firmware-terminal/
 
 ---
 
-## Estados do Sistema
+## Evolução do Projeto
 
-- `OFF`
-- `RUNNING`
-- `ERROR`
+Este projeto será desenvolvido de forma incremental, com cada versão introduzindo novos conceitos de firmware e sistemas embarcados.
 
-### Eventos
+Cada evolução será implementada em uma **branch** específica (`v2`, `v3`, `v4`, ...), permitindo acompanhar a implementação de cada funcionalidade de forma isolada.
 
-- `START`
-- `STOP`
-- `STATUS`
-- `HELP`
-- `RESET`
+Após a conclusão e validação de uma versão, suas alterações serão incorporadas à **branch `main`**, que sempre representará a versão mais completa e estável do projeto.
+
+O objetivo é evoluir gradualmente a arquitetura do firmware, adicionando novas funcionalidades e explorando conceitos cada vez mais próximos do desenvolvimento profissional de sistemas embarcados.
+
+A pasta **docs** será composta pelos arquivos **CHANGELOG** final de cada versão e o planejamento para a seguinte.
 
 ---
 
-## Comandos
+## Planejamento de Versões (macro)
 
-| Comando | Função |
-|----------|--------|
-| HELP | Lista os comandos disponíveis |
-| STATUS | Exibe o estado atual |
-| START | Inicia o sistema |
-| STOP | Para o sistema |
-| RESET | Reinicia o sistema |
+- V3 — Máquina de Estados avançada.
+- V4 — Scheduler cooperativo.
+- V5 — Sistema de logs.
+- V6 — Sensores simulados.
+- V7 — Arquitetura baseada em eventos.
+- V8 — Hardware Abstraction Layer (HAL).
+- V9 — Integração com hardware real.
 
 ---
 
