@@ -67,7 +67,7 @@ Enviar resposta
 ## Estrutura do Projeto
 
 ```text
-firmware-terminal/
+arduino-firmware/
 │
 ├── docs/
 ├── firmware/
